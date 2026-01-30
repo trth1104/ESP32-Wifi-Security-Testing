@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The ESP32 WiFi Deauther is a WiFi security testing tool using the ESP32 microcontroller combined with an SH1106 128x64 OLED display. The device allows you to perform WiFi network analysis and penetration testing tasks through a menu interface controlled by 4 buttons.
+The ESP32 WiFi Deauther is a WiFi security testing tool using the ESP32-C3 microcontroller combined with an SH1106 128x64 OLED display. The device allows you to perform WiFi network analysis and penetration testing tasks through a menu interface controlled by 4 buttons.
 
 ## Features
 
@@ -27,7 +27,7 @@ Send deauthentication packets to disconnect clients from an Access Point:
 
 ## Hardware Requirements
 
-- **ESP32** (any ESP32 development board)
+- **ESP32C3**
 - **OLED Display SH1106** 128x64, I2C interface (address 0x3C)
 - **4 push buttons** for menu control:
   - `UP` (GPIO 3): Move up
